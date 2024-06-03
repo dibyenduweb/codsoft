@@ -31,7 +31,7 @@ body {
   display: flex;
   gap: 5px;
 }
-button {
+.btn {
   border-radius: 10px;
   background: transparent;
   border: 1px solid white;
@@ -45,7 +45,7 @@ button {
   display: flex;
   align-items: center;
 }
-img{
+.img2{
   width: 60px;
 }
 .menus, li{
@@ -62,5 +62,86 @@ li:hover{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}.bannerimg {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("https://i.ibb.co/NtWMyq7/close-up-two-business-men-discussing-business-document-business-concept-close-up-two-business-men-di.png");
+  height: 80vh;
+  max-width: 1380px;
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.banner-text {
+  position: relative;
+  text-align: left; 
+  color: #4d2828;
+  padding: 30px; 
+  background: rgba(255, 255, 255, 0.8);
+  margin-left: 300px;
+}
+
+.banner-text::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 11px;
+  background: linear-gradient(
+    90deg,
+    rgba(247, 168, 99, 1) 0%,
+    rgba(241, 59, 139, 1) 100%,
+    rgba(153, 0, 255, 1) 100%
+  );
+}
+.btnx{
+  background: linear-gradient(
+    90deg,
+    rgba(247, 168, 99, 1) 0%,
+    rgba(241, 59, 139, 1) 100%,
+    rgba(153, 0, 255, 1) 100%
+  );
+  padding: 8px;
+  color: wheat;
+  border-radius: 10px;
+  border: 0px;
+
+}
+.info-tab {
+  background: linear-gradient(
+    90deg,
+    rgba(247, 168, 99, 1) 0%,
+    rgba(241, 59, 139, 1) 100%,
+    rgba(153, 0, 255, 1) 100%
+  );
+  max-width: 1380px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  color: white;
+
+}
+
+
+.icons {
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 10px;
+  margin-right: 10px;
+}
+.pe{
+  margin-left: 60px;
+  width: 300px;
+}
+
 
